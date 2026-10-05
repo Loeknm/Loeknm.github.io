@@ -1,0 +1,142 @@
+{
+  "_note": "ALL TEXT ON THE SITE. Only change the values on the right side of the colon, keep the quotes. You can reuse a value from elsewhere in this file by writing it in curly braces, e.g. {person.firstName} or {study.school}. {projectCount} is filled in automatically.",
+
+  "person": {
+    "firstName": "Loek",
+    "lastName": "Nieuwmeijer",
+    "initials": "LPC",
+    "_ageNote": "Fill in birthDate (YYYY-MM-DD) to keep your age up to date automatically, OR leave birthDate empty and type your age.",
+    "birthDate": "2004-07-24",
+    "age": "",
+    "city": "Amstelveen/Haarlem",
+    "country": "NL",
+    "_timezoneNote": "Used for the clock in the bottom bar. Netherlands = Europe/Amsterdam.",
+    "timezone": "Europe/Amsterdam",
+    "email": "Nieuwmeijer.ln@gmail.com"
+  },
+
+  "study": {
+    "programme": "Communication & Multimedia Design",
+    "programmeShort": "CMD",
+    "school": "Amsterdam University of Applied Sciences",
+    "year": "Year 4",
+    "period": "2022 – 2027"
+  },
+
+  "meta": {
+    "_languageNote": "Language code of your texts: en = English, nl = Dutch.",
+    "language": "en",
+    "pageTitle": "{person.firstName} {person.lastName} — Portfolio",
+    "description": "Portfolio of {person.firstName} {person.lastName}, {study.programme} student.",
+    "brandName": "{person.firstName} {person.lastName}",
+    "brandSubtitle": "Portfolio ’26"
+  },
+
+  "home": {
+    "eyebrow": "Portfolio — {study.programme}",
+    "introBefore": "Design student making",
+    "rotatingWords": ["interactive", "visual", "moving", "playful"],
+    "introAfter": "things. This is a collection of work from my study.",
+    "primaryButton": "Explore my work",
+    "secondaryButton": "About me",
+    "_factsNote": "The small facts in the bottom-right corner of the home page. Add or remove as many as you like.",
+    "facts": [
+      { "label": "Studying", "value": "{study.programmeShort} — {study.school}" },
+      { "label": "Currently", "value": "{study.year} student" },
+      { "label": "Age", "value": "{person.age}" }
+    ]
+  },
+
+  "work": {
+    "eyebrow": "Selected work — {projectCount} projects",
+    "layoutSlides": "Slides",
+    "layoutGrid": "Grid",
+    "openButton": "Open project",
+    "cardHover": "Open project ↗",
+    "empty": "No projects yet — add one in content/projects.json."
+  },
+
+  "project": {
+    "back": "All work",
+    "labels": {
+      "course": "Course",
+      "year": "Year",
+      "type": "Type",
+      "tools": "Tools"
+    },
+    "tabs": {
+      "overview": "Overview",
+      "process": "Process",
+      "result": "Result"
+    },
+    "visitLink": "Visit live project",
+    "previous": "Previous",
+    "next": "Next"
+  },
+
+  "about": {
+    "eyebrow": "About me",
+    "titleLine1": "Interactive installations, real-time tools,",
+    "titleLine2": "and things you can actually touch.",
+    "intro": "I am a person who likes to make things so people smile a bit more, and I want to learn to perfect that.",
+    "_columnsNote": "The columns under your intro. Up to 4 fit nicely; add or remove items freely.",
+    "columns": [
+      {
+        "title": "Study",
+        "items": ["{study.programme}", "{study.school}", "{study.year} — {study.period}"]
+      },
+      {
+        "title": "Skills",
+        "items": ["UI Design", "UX Design", "Immersive Design", "Software engineering", "Motion Design"]
+      },
+      {
+        "title": "Tools",
+        "items": ["Touchdesigner", "Figma", "Processing - Java", "HTML/CSS", "Premiere Pro", "Max8/7"]
+      },
+      {
+        "title": "Beyond design",
+        "items": ["Tutor — side job", "Petrolhead — Hobby", "Diving — Hobby"]
+      }
+    ]
+  },
+
+  "contact": {
+    "showBadge": true,
+    "badge": "Open for internships — 2026/2027",
+    "titleLine1": "Let's build",
+    "titleLine2": "something cool.",
+    "copyButton": "Copy",
+    "copiedMessage": "Copied ✓",
+    "_socialsNote": "Your profile links: shown on the home page and as buttons under your e-mail. Links with an empty url are hidden.",
+    "socials": [
+      { "label": "Instagram", "url": "https://www.instagram.com/loek.nm/" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/loek-nieuwmeijer-718304436/" },
+      { "label": "GitHub", "url": "https://github.com/Loeknm" }
+    ]
+  },
+
+  "interface": {
+    "_note": "Menu, labels and hints. Only change these if you want different wording (or another language). [x] becomes a keyboard key.",
+    "nav": {
+      "home": "Home",
+      "work": "Work",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "theme": {
+      "dark": "Dark",
+      "light": "Light"
+    },
+    "statusLocation": "{person.city}, {person.country}",
+    "cursorOpen": "Open",
+    "hints": {
+      "home": "[↵] or scroll to explore",
+      "work": "[←][→] or scroll to browse · [↵] open",
+      "workGrid": "Click a project to open it",
+      "project": "[←][→] images · [Esc] back",
+      "other": "[1][2][3] jump · [Esc] home",
+      "touchWork": "Swipe to browse",
+      "touchProject": "Swipe images"
+    }
+  }
+}

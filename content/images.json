@@ -1,0 +1,53 @@
+{
+  "_note": "ALL IMAGES ON THE SITE. Paste a link between the quotes of \"url\": a web address (https://...) or a file in the images folder (images/me.jpg). An empty url shows a gradient placeholder, so nothing breaks. \"alt\" is a short description for screen readers and search engines. _where tells you where the image appears and the best size. Images fill their frame and may be cropped at the edges; add \"fit\": \"contain\" to an image to show it whole instead (handy for screenshots). Add \"position\" to choose which part stays in view when it's cropped: \"left\", \"right\", \"top\", \"bottom\", or e.g. \"85% 50%\" (across, down).",
+
+  "site": {
+    "portrait": {
+      "_where": "About page — large photo on the left. Portrait 3:4, about 1200 × 1600 px.",
+      "url": "images/portrait.jpeg",
+      "alt": "Portrait of {person.firstName} {person.lastName}"
+    },
+    "logo": {
+      "_where": "Round logo in the top-left corner. Square, about 200 × 200 px. Empty = your initials.",
+      "url": "",
+      "alt": "{person.firstName} {person.lastName}"
+    },
+    "favicon": {
+      "_where": "Small icon in the browser tab. Square PNG or SVG, 64 × 64 px. favicon.svg = a circle with your initials (edit the letters inside that file).",
+      "url": "favicon.svg"
+    }
+  },
+
+  "_projectsNote": "One block per project, with the SAME id as in projects.json. cover = the card in the Work slider/grid and the first image on the project page (landscape 16:10, about 1600 × 1000 px). gallery = extra images on the project page, in this order; add as many as you like. A gallery slot can also be a video: a video file (images/clip.mp4) or a YouTube / Vimeo link.",
+
+  "projects": {
+    "project-one": {
+      "cover":   { "url": "images/ims2.jpg", "alt": "Cover of Project One" },
+      "gallery": [
+        { "url": "images/ims1.jpg", "alt": "Project One image 2", "position": "88% 50%" },
+        { "url": "images/ims3.jpg", "alt": "Project One image 3" },
+        {
+          "_where": "VIDEO SLOT. Put a video file in the images folder and paste its path (images/my-video.mp4), or paste a YouTube or Vimeo link. Use .mp4 so it plays in every browser.",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=upiDiakgAt8",
+          "alt": "Video of Project One"
+        }
+      ]
+    },
+    "project-two": {
+      "cover":   { "url": "images/cover.jpg", "alt": "Cover of Project Two" },
+      "gallery": [
+        { "url": "images/dg2.jpeg", "alt": "Digital Graffiti image 2" },
+        { "url": "images/toolui.PNG", "alt": "Digital Graffiti tool interface", "fit": "contain" }
+      ]
+    },
+    "project-three": {
+      "cover":   { "url": "images/cover3-cropped.jpeg", "alt": "Cover of Project Three" },
+      "gallery": [
+        { "url": "images/bol1.jpeg", "alt": "Service Design image 2" },
+        { "url": "images/bol2.jpeg", "alt": "Service Design image 3" },
+        { "url": "images/bol3.jpeg", "alt": "Service Design image 4" }
+      ]
+    }
+  }
+}

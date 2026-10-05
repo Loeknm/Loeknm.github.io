@@ -1,0 +1,71 @@
+{
+  "_note": "YOUR PROJECTS. Each block between { } is one project; the order here is the order on the site. To add a project: copy a whole block (from { to }), paste it after the last one, put a comma between the blocks, and give it a new unique id. Images for a project go in images.json under the same id.",
+
+  "_fields": {
+    "id": "Unique name without spaces, used in the link (#/work/your-id) and to match images in images.json",
+    "title": "Project name",
+    "type": "Kind of project, e.g. Branding, UX / UI, Motion, Web design",
+    "course": "The course / module it was made for",
+    "year": "e.g. 2026 or Year 2",
+    "tools": "List of tools, e.g. [\"Figma\", \"After Effects\"]",
+    "summary": "One sentence, shown in the Work slider",
+    "overview": "Overview tab. One text, or a list of paragraphs: [\"First.\", \"Second.\"]",
+    "process": "Process tab. Same as overview",
+    "result": "Result tab. Same as overview",
+    "link": "Optional link to a live version. Leave \"\" to hide the button",
+    "hidden": "true = not shown on the site (handy for drafts)"
+  },
+
+  "projects": [
+    {
+      "id": "project-one",
+      "title": "Immersive Environments",
+      "type": "Minor",
+      "course": "Interactive Design",
+      "year": "2025-2026",
+      "tools": ["Touchdesigner", "Ableton Live", "Mapping software"],
+      "summary": "Making hand tracking and projection mapping work together to create an immersive environment.",
+      "overview": [
+        "Creating an interactive immersive installation based on the word: Paradox.",
+        "This installation uses a camera with hand tracking software created in Touchdesigner connected to a series of special effects which react to the user's hand gestures, created by me.",
+        "This project was nominated for the Golden Dot awards by the Amsterdam University of Applied Sciences, more information on this topic can be found on: https://cmd-amsterdam.nl/portfolio/paradox/",
+        "Commissioned by audiovisual artist Max Cooper."
+      ],
+      "process": [ 
+      ],
+      "result": [
+        "The end result is an interactive installation in which visitors can deform a floating 3D object in real time using hand gestures. The installation was developed in TouchDesigner and responds directly to the user's movements. Just when visitors think they understand the interaction, the object's behavior changes unexpectedly, making the theme Paradox something you can actually experience. This constant interplay between control and unpredictability challenges visitors to keep experimenting. During the exhibition, this sparked curiosity, engagement and active interaction, with visitors discovering different ways to influence the system. In this way, the installation succeeds in translating the client's objective into an accessible, playful and immersive experience."
+      ],
+      "link": "",
+      "hidden": false
+    },
+    {
+      "id": "project-two",
+      "title": "Studio Play",
+      "type": "UI Design / Software engineering",
+      "course": "Internship",
+      "year": "2026",
+      "tools": ["Processing - Java", "Max8/7"],
+      "summary": "Making a UI for an ongoing project at Studio Play, Digital Graffiti",
+      "overview": "During my internship as a software engineer, I'm redesigning the UI of Digital Graffiti, a live drawing application that projects users' drawings onto buildings in real time. I research the UX through sketches and close consultation with the product's maker, then implement the new interface in code.",
+      "process": "",
+      "result": "",
+      "link": "",
+      "hidden": false
+    },
+    {
+      "id": "project-three",
+      "title": "Service Design",
+      "type": "Minor",
+      "course": "UX",
+      "year": "2025",
+      "tools": ["UX Principles", "Presenting", "Prototyping"],
+      "summary": "Our design offers young people an interactive, accessible way to learn about drugs. It stays neutral so it provokes curiosity instead of fear, and it gets them talking about the social impact of drugs. ",
+      "overview": "The Wereldmuseum in Amsterdam asked us to design an educational concept that fits its identity and values. The museum focuses on cultures and histories from around the world. Its mission is to inspire global citizenship and contribute to an equal, just world, and its vision holds that people grow closer by building empathy for and knowledge of each other's cultures. Our concept had to encourage young visitors to look beyond their own world and better understand other cultures. It also needed to be informative, appealing, inspiring and connecting, and to spark dialogue.",
+      "process": "Research: User trips, customer journeys and observations showed that young people (18-25) rarely visit the Wereldmuseum by choice, lose focus quickly and mostly engage with interactive elements. Desk research on attention span led us to target voluntary attention through a topic they care about. A creative research method showed they wanted drugs as the taboo topic, museum visits to the Sexmuseum and the Hash Marihuana and Hemp Museum showed a light-hearted approach to taboo topics, and an ethics lesson showed the group is open to respectful dialogue. Concepts: an interactive world map highlighting drug-related stories, a floor or table projection with a cause-and-effect simulation, and a spinning globe in a table that shows stories per country on screens. Iterations: the globe concept merged two earlier ideas, and the project runs in phases of reviewing research, developing and testing 2-3 concepts, refining one prototype for the final presentation, and reflecting.",
+      "result": "The project resulted in a focused design question: how to create a pleasant, clear experience around a societal theme in the Wereldmuseum for 18-25 year olds through a physical installation. It also led to a concept direction, a tangible, interactive installation, including my idea of a globe with buttons that reveal information, which the team responded to enthusiastically. The chosen theme (drugs) is backed by research and fits both the target group and the museum's mission, and feedback from experts and the target group has already been worked into the brief. The concept is still on paper and not yet physically built, so the results so far are mainly insights and a clear direction.",
+      "link": "",
+      "hidden": false
+    }
+  ]
+}
